@@ -1,0 +1,24 @@
+{
+	"name": "ts-node-starter",
+	"version": "1.0.0",
+	"description": "Starter to use Typescript with NodeJS",
+	"scripts": {
+		"build": "rimraf dist && npx tsc",
+		"start": "npm run build && node dist/src/index.js",
+		"dev": "npx tsx watch src/index.ts"
+	},
+	"keywords": [
+		"typescript node starter",
+		"ts node boilerplate"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.4.2",
+		"rimraf": "^5.0.1",
+		"tsx": "^3.12.7",
+		"typescript": "^5.1.6"
+	},
+	"dependencies": {
+		"dotenv": "^16.3.1"
+	}
+}
