@@ -1,9 +1,7 @@
 ## Starter to use NodeJS with TypeScript
 
-### Usage
-
-Get started
-By default we use [pnpm](https://pnpm.io/) you can use any package manager you want.
+### Get Started
+This starter recommends using [pnpm](https://pnpm.io/), however you can opt out to use any package manager.
 
 #### pnpm
 
